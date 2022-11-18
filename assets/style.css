@@ -282,6 +282,7 @@ section{
     padding: 5rem;
     text-align: center;
     border: var(--border);
+    border-radius: 5px;
 
 }
 
@@ -317,16 +318,106 @@ section{
     color: var(--black);
 }
 /* P26 */
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    gap: 1.5rem;
+}
 
+.products .box-container .box{
+    text-align: center;
+    border: var(--border);
+    padding: 2rem;
+    border-radius: 5px;
+}
 
+.products .box-container .box .icons a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    border: var(--border);
+    color: #fff;
+    margin: .3rem;
+    border-radius: 5px;
+}
 
+.products .box-container .box .icons a:hover{
+    background: var(--main-color);
+}
 
+.products .box-container .box .image{
+    padding: 2.5rem 0;
 
+}
 
+.products .box-container .box .image img{
+    height: 25rem;
+}
 
+.products .box-container .box .content h3{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.products .box-container .box .content .starts{
+    padding: 1.5rem;
+}
+.products .box-container .box .content .starts i{
+    font-size: 1.7rem;
+    color: var(--main-color);
+}
 
+.products .box-container .box .content .price{
+    color: #fff;
+    font-size: 2.5rem;
+}
 
+.products .box-container .box .content .price span{
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
 
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    gap: 1.5rem;
+}
+
+.review .box-container .box{
+    border: var(--border);
+    border-radius: 5px;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.review .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 2rem 0;
+
+}
+.review .box-container .box .user{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-container .box h3{
+    padding: 1rem 0;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.review .box-container .box .starts i{
+    font-size: 1.5rem;
+    color: var(--main-color);
+
+}
+
+/* P32 */
 
 
 
