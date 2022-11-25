@@ -91,9 +91,10 @@ section{
 }
 
 .header .navbar a{
-    margin: 0 1rem;
+    margin: 0 2rem;
     font-size: 1.8rem;
     color: #fff;
+    
 }
 
 .header .navbar a:hover{
@@ -111,6 +112,8 @@ section{
 
 .header .icons div:hover{
     color: var(--main-color);
+    transform: scale(1.2);
+
 }
 
 #menu-btn{
@@ -533,6 +536,74 @@ section{
 }
 
 /* P39 */
+/* //footer */
+.footer{
+    background: var(--black);
+    text-align: center;
+
+}
+
+.footer .share{
+    padding: 1rem 0;
+    
+}
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: var(--border);
+    border-radius: 50%;
+    margin: .6rem;
+}
+
+.footer .share a:hover{
+    background-color: var(--main-color);
+    transform: scale(1.1);
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+
+.footer .links a{
+    padding: .7rem 2rem;
+    color: #fff;
+    border: var(--border);
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+.footer .links a:hover{
+   background-color: var(--main-color);
+   transform: scale(1.1);
+
+}
+
+.footer .credit{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+}
+
+.footer .credit span{
+    color: var(--main-color);
+}
+
+
+
+
+
+
+
+
+
 
 
 
